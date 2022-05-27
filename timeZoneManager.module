@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function timeZoneManager_theme() {
+  return [
+    'timezone_block' => [
+      'variables' => ['date' => [] , 'city' => [] , 'country' => []],
+      'template' => 'timezone-block',
+    ],
+  ];
+}

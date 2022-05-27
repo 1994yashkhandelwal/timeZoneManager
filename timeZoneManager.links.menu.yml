@@ -1,0 +1,4 @@
+timeZoneManager:
+  title: 'TimeZone Admin Setting Form'
+  parent: system.admin_config
+  route_name: timeZoneManager.TimeZoneManagerConfig
