@@ -1,0 +1,6 @@
+name: TimeZone Manager
+description: Module to manage World's TimeZone.
+package: Custom
+type: module
+core_version_requirement: ^8.8 || ^9
+configure: timeZoneManager.TimeZoneAdminConfig
